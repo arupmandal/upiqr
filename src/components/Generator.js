@@ -90,9 +90,9 @@ function Generator() {
   return (
     <Flex flexDirection="column" gap={10}>
       <Flex alignItems="center" gap={5}>
-        <Image alt="UPIQR.me" src={logo} sx={{ maxWidth: "4em" }} />
+        <Image alt="UPIQR.me" src={logo} sx={{ maxWidth: "7em" }} />
         <Flex flexDirection="column">
-          <Text fontSize="1.5em" fontWeight="bold">
+          <Text fontSize="5em" fontWeight="bold">
             AUpi
           </Text>
           <Text>Create and download QR codes for UPI payments.</Text>
